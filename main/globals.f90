@@ -18,14 +18,14 @@ real*8 t1, t2, t3, t4, tm, tp, eps, step, IntLimit
     
     subroutine InitGlobals
     implicit none
-        lamda = 55.5d9
-        mu = 26.1d9
-        rho = 2698d0
+        lamda = 55.5d6
+        mu = 26.1d6
+        rho = 2.698d0
         z = 0d0
         xmin = 0d0
-        xstep = 0.001d0 
-        xmax = 0.1d0
-        f = 200000d0
+        xstep = 1d0 
+        xmax = 140d0
+        f = 200d0
         
         
         w = 2d0*pi*f
@@ -36,7 +36,7 @@ real*8 t1, t2, t3, t4, tm, tp, eps, step, IntLimit
         tp = 0d0 
         eps = 1d-6 
         step = 1d-2 
-        IntLimit = 1d5
+        IntLimit = 1d10
         t1 = Kappa(1)*0.5; t2 = t1; t3 = t1; t4 = (Kappa(2)*1.4d0)
         
         pointsNumber = ceiling((xMax-xMin)/xStep)

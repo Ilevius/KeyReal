@@ -7,14 +7,14 @@ data = load('result.txt');
 x = data(:,1);
 u = data(:,2);
 
-% data = load('Oleg.txt');
-% xOleg = data(:,1)/6.28;
-% dzetaOleg = data(:,2);
-% plot(x, dzeta, 'o', xOleg, dzetaOleg,  '.', 'markerSize', 15);
+data = load('comsol.txt');
+xOleg = data(:,1)*1000;
+dzetaOleg = data(:,2)*1000;
+plot(x, u, 'o', xOleg, dzetaOleg,  '.', 'markerSize', 15);
 % legend('Олег','Александр')
 
 
-plot(x, u, '.', 'markerSize', 15);
+% plot(x, u, '.', 'markerSize', 15);
 
 
 % hold on

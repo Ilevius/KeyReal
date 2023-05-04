@@ -53,7 +53,7 @@ CONTAINS
     complex*16 alfa, MakeP, sigma(2), delta
         sigma = makeSigma(kappa, alfa)
         delta = makeDelta(alfa, mu, kappa)
-        MakeP =2d0*ci*mu*(-(alfa**2-0.5d0*kappa(2)**2)*exp(sigma(1)*z) + sigma(1)*sigma(2)*exp(sigma(2)*z))/delta
+        MakeP =2d0*ci*(-(alfa**2-0.5d0*kappa(2)**2)*exp(sigma(1)*z) + sigma(1)*sigma(2)*exp(sigma(2)*z))/delta
     END
     
     
@@ -66,7 +66,8 @@ CONTAINS
         P = MakeP(alfa, mu, kappa)
         Pminus = MakeP(-alfa, mu, kappa)
         do i = 1, n
-            s(i) = -ci*alfa*P*exp(-ci*alfa*x(i)) + alfa*ci*Pminus*exp(ci*alfa*x(i))   
+           ! s(i) = -ci*alfa*P*exp(-ci*alfa*x(i)) + alfa*ci*Pminus*exp(ci*alfa*x(i))   
+            s(i) = -ci*alfa*P*(exp(-ci*alfa*x(i)) +exp(ci*alfa*x(i)))   
             s(i) = s(i)/(2d0*pi)
         enddo     
     END SUBROUTINE u_integrand
