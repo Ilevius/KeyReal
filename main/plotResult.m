@@ -8,8 +8,8 @@ x = data(:,1);
 u = data(:,2);
 
 data = load('comsol.txt');
-xOleg = data(:,1)*1000;
-dzetaOleg = data(:,2)*1000;
+xOleg = data(:,1);
+dzetaOleg = data(:,2);
 plot(x, u, 'o', xOleg, dzetaOleg,  '.', 'markerSize', 15);
 % legend('Олег','Александр')
 
