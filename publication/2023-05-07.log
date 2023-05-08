@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.18)  7 MAY 2023 23:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.18)  8 MAY 2023 11:35
 entering extended mode
 **./2023-05-07.tex
 (2023-05-07.tex
@@ -652,6 +652,9 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 )
 \c@rlistctr=\count296
 )
+(C:\Program Files\MiKTeX\tex/latex/pscyr\pscyr.sty
+Package: pscyr 2002/07/04 v0.4d Cyrillic Type1 fonts as default
+)
 (C:\Program Files\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
@@ -703,7 +706,12 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \c@exercise=\count313
 \c@problem=\count314
 \c@summary=\count315
+LaTeX Font Info:    Trying to load font information for OT1+faq on input line 6
+6.
 
+(C:\Program Files\MiKTeX\tex/latex/pscyr\ot1faq.fd
+File: ot1faq.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/faq.
+)<<ot1.cmap>>
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count316
@@ -714,35 +722,41 @@ LaTeX Warning: Unused global option(s):
     [openany].
 
 (2023-05-07.aux
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
+LaTeX Font Info:    Trying to load font information for T2A+faq on input line 2
 2.
- (C:\Program Files\MiKTeX\tex/latex/cyrillic\t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+ (C:\Program Files\MiKTeX\tex/latex/pscyr\t2afaq.fd
+File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
 )<<t2a.cmap>>)
 \openout1 = `2023-05-07.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-Package hyperref Info: Link coloring OFF on input line 65.
- (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 66.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 6
+6.
+ (C:\Program Files\MiKTeX\tex/latex/cyrillic\t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    ... okay on input line 66.
+Package hyperref Info: Link coloring OFF on input line 66.
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
 (C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
@@ -753,15 +767,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count317
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 66.
+LaTeX Info: Redefining \pageref on input line 66.
+LaTeX Info: Redefining \nameref on input line 66.
 
 (2023-05-07.out) (2023-05-07.out)
 \@outlinefile=\write4
 \openout4 = `2023-05-07.out'.
 
-LaTeX Info: Redefining \th on input line 65.
+LaTeX Info: Redefining \th on input line 66.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -783,39 +797,46 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
+))<<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
 
-
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for PD1+cmr on input line 6
-5.
-LaTeX Font Info:    No file PD1cmr.fd. on input line 65.
+6.
+LaTeX Font Info:    No file PD1cmr.fd. on input line 66.
 
 
 LaTeX Font Warning: Font shape `PD1/cmr/m/up' undefined
-(Font)              using `PD1/pdf/m/n' instead on input line 65.
+(Font)              using `PD1/pdf/m/n' instead on input line 66.
 
-LaTeX Font Info:    Trying to load font information for PU+cmr on input line 65
+LaTeX Font Info:    Trying to load font information for PU+cmr on input line 66
 .
-LaTeX Font Info:    No file PUcmr.fd. on input line 65.
+LaTeX Font Info:    No file PUcmr.fd. on input line 66.
 
 LaTeX Font Warning: Font shape `PU/cmr/m/up' undefined
-(Font)              using `PU/pdf/m/n' instead on input line 65.
+(Font)              using `PU/pdf/m/n' instead on input line 66.
 
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 65.
+(Font)              using `T2A/cmr/m/n' instead on input line 66.
 
-Package xypdf Info: Line width: 0.57597pt on input line 65.
+Package xypdf Info: Line width: 0.57597pt on input line 66.
+LaTeX Font Info:    Font shape `T2A/faq/b/n' in size <20.74> not available
+(Font)              Font shape `T2A/faq/bx/n' tried instead on input line 67.
+
+Underfull \hbox (badness 1888) in paragraph at lines 142--186
+[]\T2A/faq/m/n/14.4 Для по-лу-че-ния ко-ли-че-ствен-ных ха-рак-те-ри-стик воз-б
+уж-да-е-мых
+ []
+
 Package epstopdf Info: Source file: <3d.eps>
 (epstopdf)                    date: 2023-05-07 21:59:30
 (epstopdf)                    size: 446994 bytes
@@ -824,7 +845,7 @@ Package epstopdf Info: Source file: <3d.eps>
 (epstopdf)                    size: 22402 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=3d-eps-converted-to.
 pdf 3d.eps>
-(epstopdf)             \includegraphics on input line 188.
+(epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -833,2020 +854,2023 @@ ound PDF version <1.7>, but at most version <1.5> allowed
 <3d-eps-converted-to.pdf, id=24, 94.3525pt x 66.2475pt>
 File: 3d-eps-converted-to.pdf Graphic file (type pdf)
 <use 3d-eps-converted-to.pdf>
-Package pdftex.def Info: 3d-eps-converted-to.pdf  used on input line 188.
+Package pdftex.def Info: 3d-eps-converted-to.pdf  used on input line 189.
 (pdftex.def)             Requested size: 283.05675pt x 198.74199pt.
 [1{C:/Users/tiama/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
  <./3d-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\CYRP' on input line 260.
+(hyperref)                removing `\?\CYRP' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\CYRP' on input line 260.
+(hyperref)                removing `\PU\CYRP' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\CYRP' on input line 260.
+(hyperref)                removing `\?\CYRP' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\CYRP' on input line 260.
+(hyperref)                removing `\PU\CYRP' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 260.
+(hyperref)                removing `\?\cyro' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 260.
+(hyperref)                removing `\PU\cyro' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 260.
+(hyperref)                removing `\?\cyro' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 260.
+(hyperref)                removing `\PU\cyro' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrs' on input line 260.
+(hyperref)                removing `\?\cyrs' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrs' on input line 260.
+(hyperref)                removing `\PU\cyrs' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrs' on input line 260.
+(hyperref)                removing `\?\cyrs' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrs' on input line 260.
+(hyperref)                removing `\PU\cyrs' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrt' on input line 260.
+(hyperref)                removing `\?\cyrt' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrt' on input line 260.
+(hyperref)                removing `\PU\cyrt' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrt' on input line 260.
+(hyperref)                removing `\?\cyrt' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrt' on input line 260.
+(hyperref)                removing `\PU\cyrt' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 260.
+(hyperref)                removing `\?\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 260.
+(hyperref)                removing `\PU\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 260.
+(hyperref)                removing `\?\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 260.
+(hyperref)                removing `\PU\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrn' on input line 260.
+(hyperref)                removing `\?\cyrn' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrn' on input line 260.
+(hyperref)                removing `\PU\cyrn' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrn' on input line 260.
+(hyperref)                removing `\?\cyrn' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrn' on input line 260.
+(hyperref)                removing `\PU\cyrn' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 260.
+(hyperref)                removing `\?\cyro' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 260.
+(hyperref)                removing `\PU\cyro' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 260.
+(hyperref)                removing `\?\cyro' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 260.
+(hyperref)                removing `\PU\cyro' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrv' on input line 260.
+(hyperref)                removing `\?\cyrv' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrv' on input line 260.
+(hyperref)                removing `\PU\cyrv' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrv' on input line 260.
+(hyperref)                removing `\?\cyrv' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrv' on input line 260.
+(hyperref)                removing `\PU\cyrv' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrk' on input line 260.
+(hyperref)                removing `\?\cyrk' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrk' on input line 260.
+(hyperref)                removing `\PU\cyrk' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrk' on input line 260.
+(hyperref)                removing `\?\cyrk' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrk' on input line 260.
+(hyperref)                removing `\PU\cyrk' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 260.
+(hyperref)                removing `\?\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 260.
+(hyperref)                removing `\PU\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 260.
+(hyperref)                removing `\?\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 260.
+(hyperref)                removing `\PU\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrz' on input line 260.
+(hyperref)                removing `\?\cyrz' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrz' on input line 260.
+(hyperref)                removing `\PU\cyrz' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrz' on input line 260.
+(hyperref)                removing `\?\cyrz' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrz' on input line 260.
+(hyperref)                removing `\PU\cyrz' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 260.
+(hyperref)                removing `\?\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 260.
+(hyperref)                removing `\PU\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 260.
+(hyperref)                removing `\?\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 260.
+(hyperref)                removing `\PU\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrd' on input line 260.
+(hyperref)                removing `\?\cyrd' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrd' on input line 260.
+(hyperref)                removing `\PU\cyrd' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrd' on input line 260.
+(hyperref)                removing `\?\cyrd' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrd' on input line 260.
+(hyperref)                removing `\PU\cyrd' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 260.
+(hyperref)                removing `\?\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 260.
+(hyperref)                removing `\PU\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 260.
+(hyperref)                removing `\?\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 260.
+(hyperref)                removing `\PU\cyra' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrch' on input line 260.
+(hyperref)                removing `\?\cyrch' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrch' on input line 260.
+(hyperref)                removing `\PU\cyrch' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrch' on input line 260.
+(hyperref)                removing `\?\cyrch' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrch' on input line 260.
+(hyperref)                removing `\PU\cyrch' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 260.
+(hyperref)                removing `\<def>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyri' on input line 260.
+(hyperref)                removing `\?\cyri' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 260.
+(hyperref)                removing `\global' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 260.
+(hyperref)                removing `\<let>-command' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyri' on input line 260.
+(hyperref)                removing `\PU\cyri' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyri' on input line 260.
+(hyperref)                removing `\?\cyri' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyri' on input line 260.
+(hyperref)                removing `\PU\cyri' on input line 261.
 
 [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\CYRM' on input line 469.
+(hyperref)                removing `\?\CYRM' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\CYRM' on input line 469.
+(hyperref)                removing `\PU\CYRM' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\CYRM' on input line 469.
+(hyperref)                removing `\?\CYRM' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\CYRM' on input line 469.
+(hyperref)                removing `\PU\CYRM' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 469.
+(hyperref)                removing `\?\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 469.
+(hyperref)                removing `\PU\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 469.
+(hyperref)                removing `\?\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 469.
+(hyperref)                removing `\PU\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrt' on input line 469.
+(hyperref)                removing `\?\cyrt' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrt' on input line 469.
+(hyperref)                removing `\PU\cyrt' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrt' on input line 469.
+(hyperref)                removing `\?\cyrt' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrt' on input line 469.
+(hyperref)                removing `\PU\cyrt' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 469.
+(hyperref)                removing `\?\cyro' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 469.
+(hyperref)                removing `\PU\cyro' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 469.
+(hyperref)                removing `\?\cyro' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 469.
+(hyperref)                removing `\PU\cyro' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrd' on input line 469.
+(hyperref)                removing `\?\cyrd' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrd' on input line 469.
+(hyperref)                removing `\PU\cyrd' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrd' on input line 469.
+(hyperref)                removing `\?\cyrd' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrd' on input line 469.
+(hyperref)                removing `\PU\cyrd' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrk' on input line 469.
+(hyperref)                removing `\?\cyrk' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrk' on input line 469.
+(hyperref)                removing `\PU\cyrk' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrk' on input line 469.
+(hyperref)                removing `\?\cyrk' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrk' on input line 469.
+(hyperref)                removing `\PU\cyrk' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 469.
+(hyperref)                removing `\?\cyro' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 469.
+(hyperref)                removing `\PU\cyro' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 469.
+(hyperref)                removing `\?\cyro' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 469.
+(hyperref)                removing `\PU\cyro' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrn' on input line 469.
+(hyperref)                removing `\?\cyrn' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrn' on input line 469.
+(hyperref)                removing `\PU\cyrn' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrn' on input line 469.
+(hyperref)                removing `\?\cyrn' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrn' on input line 469.
+(hyperref)                removing `\PU\cyrn' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 469.
+(hyperref)                removing `\?\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 469.
+(hyperref)                removing `\PU\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 469.
+(hyperref)                removing `\?\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 469.
+(hyperref)                removing `\PU\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrch' on input line 469.
+(hyperref)                removing `\?\cyrch' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrch' on input line 469.
+(hyperref)                removing `\PU\cyrch' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrch' on input line 469.
+(hyperref)                removing `\?\cyrch' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrch' on input line 469.
+(hyperref)                removing `\PU\cyrch' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrn' on input line 469.
+(hyperref)                removing `\?\cyrn' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrn' on input line 469.
+(hyperref)                removing `\PU\cyrn' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrn' on input line 469.
+(hyperref)                removing `\?\cyrn' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrn' on input line 469.
+(hyperref)                removing `\PU\cyrn' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrery' on input line 469.
+(hyperref)                removing `\?\cyrery' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrery' on input line 469.
+(hyperref)                removing `\PU\cyrery' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrery' on input line 469.
+(hyperref)                removing `\?\cyrery' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrery' on input line 469.
+(hyperref)                removing `\PU\cyrery' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrh' on input line 469.
+(hyperref)                removing `\?\cyrh' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrh' on input line 469.
+(hyperref)                removing `\PU\cyrh' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrh' on input line 469.
+(hyperref)                removing `\?\cyrh' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrh' on input line 469.
+(hyperref)                removing `\PU\cyrh' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrerev' on input line 469.
+(hyperref)                removing `\?\cyrerev' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrerev' on input line 469.
+(hyperref)                removing `\PU\cyrerev' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrerev' on input line 469.
+(hyperref)                removing `\?\cyrerev' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrerev' on input line 469.
+(hyperref)                removing `\PU\cyrerev' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrl' on input line 469.
+(hyperref)                removing `\?\cyrl' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrl' on input line 469.
+(hyperref)                removing `\PU\cyrl' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrl' on input line 469.
+(hyperref)                removing `\?\cyrl' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrl' on input line 469.
+(hyperref)                removing `\PU\cyrl' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 469.
+(hyperref)                removing `\?\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 469.
+(hyperref)                removing `\PU\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 469.
+(hyperref)                removing `\?\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 469.
+(hyperref)                removing `\PU\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrm' on input line 469.
+(hyperref)                removing `\?\cyrm' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrm' on input line 469.
+(hyperref)                removing `\PU\cyrm' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrm' on input line 469.
+(hyperref)                removing `\?\cyrm' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrm' on input line 469.
+(hyperref)                removing `\PU\cyrm' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 469.
+(hyperref)                removing `\?\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 469.
+(hyperref)                removing `\PU\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 469.
+(hyperref)                removing `\?\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 469.
+(hyperref)                removing `\PU\cyre' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrn' on input line 469.
+(hyperref)                removing `\?\cyrn' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrn' on input line 469.
+(hyperref)                removing `\PU\cyrn' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrn' on input line 469.
+(hyperref)                removing `\?\cyrn' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrn' on input line 469.
+(hyperref)                removing `\PU\cyrn' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrt' on input line 469.
+(hyperref)                removing `\?\cyrt' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrt' on input line 469.
+(hyperref)                removing `\PU\cyrt' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrt' on input line 469.
+(hyperref)                removing `\?\cyrt' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrt' on input line 469.
+(hyperref)                removing `\PU\cyrt' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 469.
+(hyperref)                removing `\?\cyro' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 469.
+(hyperref)                removing `\PU\cyro' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 469.
+(hyperref)                removing `\?\cyro' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 469.
+(hyperref)                removing `\PU\cyro' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 469.
+(hyperref)                removing `\<def>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrv' on input line 469.
+(hyperref)                removing `\?\cyrv' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 469.
+(hyperref)                removing `\global' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 469.
+(hyperref)                removing `\<let>-command' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrv' on input line 469.
+(hyperref)                removing `\PU\cyrv' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrv' on input line 469.
+(hyperref)                removing `\?\cyrv' on input line 470.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrv' on input line 469.
+(hyperref)                removing `\PU\cyrv' on input line 470.
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 472--478
+[]\T2A/faq/m/n/14.4 В дан-ном раз-де-ле мы по-стро-и-ли вол-но-вое по-ле с по-м
+о-щью
+ []
 
 <comsol1.jpg, id=52, 458.9145pt x 145.7445pt>
 File: comsol1.jpg Graphic file (type jpg)
 <use comsol1.jpg>
-Package pdftex.def Info: comsol1.jpg  used on input line 529.
+Package pdftex.def Info: comsol1.jpg  used on input line 530.
 (pdftex.def)             Requested size: 458.91338pt x 145.74414pt.
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\CYRP' on input line 553.
+(hyperref)                removing `\?\CYRP' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\CYRP' on input line 553.
+(hyperref)                removing `\PU\CYRP' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\CYRP' on input line 553.
+(hyperref)                removing `\?\CYRP' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\CYRP' on input line 553.
+(hyperref)                removing `\PU\CYRP' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 553.
+(hyperref)                removing `\?\cyro' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 553.
+(hyperref)                removing `\PU\cyro' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 553.
+(hyperref)                removing `\?\cyro' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 553.
+(hyperref)                removing `\PU\cyro' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrl' on input line 553.
+(hyperref)                removing `\?\cyrl' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrl' on input line 553.
+(hyperref)                removing `\PU\cyrl' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrl' on input line 553.
+(hyperref)                removing `\?\cyrl' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrl' on input line 553.
+(hyperref)                removing `\PU\cyrl' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyru' on input line 553.
+(hyperref)                removing `\?\cyru' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyru' on input line 553.
+(hyperref)                removing `\PU\cyru' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyru' on input line 553.
+(hyperref)                removing `\?\cyru' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyru' on input line 553.
+(hyperref)                removing `\PU\cyru' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 553.
+(hyperref)                removing `\?\cyra' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 553.
+(hyperref)                removing `\PU\cyra' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 553.
+(hyperref)                removing `\?\cyra' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 553.
+(hyperref)                removing `\PU\cyra' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrn' on input line 553.
+(hyperref)                removing `\?\cyrn' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrn' on input line 553.
+(hyperref)                removing `\PU\cyrn' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrn' on input line 553.
+(hyperref)                removing `\?\cyrn' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrn' on input line 553.
+(hyperref)                removing `\PU\cyrn' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 553.
+(hyperref)                removing `\?\cyra' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 553.
+(hyperref)                removing `\PU\cyra' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 553.
+(hyperref)                removing `\?\cyra' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 553.
+(hyperref)                removing `\PU\cyra' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrl' on input line 553.
+(hyperref)                removing `\?\cyrl' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrl' on input line 553.
+(hyperref)                removing `\PU\cyrl' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrl' on input line 553.
+(hyperref)                removing `\?\cyrl' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrl' on input line 553.
+(hyperref)                removing `\PU\cyrl' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyri' on input line 553.
+(hyperref)                removing `\?\cyri' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyri' on input line 553.
+(hyperref)                removing `\PU\cyri' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyri' on input line 553.
+(hyperref)                removing `\?\cyri' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyri' on input line 553.
+(hyperref)                removing `\PU\cyri' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrt' on input line 553.
+(hyperref)                removing `\?\cyrt' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrt' on input line 553.
+(hyperref)                removing `\PU\cyrt' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrt' on input line 553.
+(hyperref)                removing `\?\cyrt' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrt' on input line 553.
+(hyperref)                removing `\PU\cyrt' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyri' on input line 553.
+(hyperref)                removing `\?\cyri' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyri' on input line 553.
+(hyperref)                removing `\PU\cyri' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyri' on input line 553.
+(hyperref)                removing `\?\cyri' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyri' on input line 553.
+(hyperref)                removing `\PU\cyri' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrch' on input line 553.
+(hyperref)                removing `\?\cyrch' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrch' on input line 553.
+(hyperref)                removing `\PU\cyrch' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrch' on input line 553.
+(hyperref)                removing `\?\cyrch' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrch' on input line 553.
+(hyperref)                removing `\PU\cyrch' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 553.
+(hyperref)                removing `\?\cyre' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 553.
+(hyperref)                removing `\PU\cyre' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 553.
+(hyperref)                removing `\?\cyre' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 553.
+(hyperref)                removing `\PU\cyre' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrs' on input line 553.
+(hyperref)                removing `\?\cyrs' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrs' on input line 553.
+(hyperref)                removing `\PU\cyrs' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrs' on input line 553.
+(hyperref)                removing `\?\cyrs' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrs' on input line 553.
+(hyperref)                removing `\PU\cyrs' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrk' on input line 553.
+(hyperref)                removing `\?\cyrk' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrk' on input line 553.
+(hyperref)                removing `\PU\cyrk' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrk' on input line 553.
+(hyperref)                removing `\?\cyrk' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrk' on input line 553.
+(hyperref)                removing `\PU\cyrk' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyri' on input line 553.
+(hyperref)                removing `\?\cyri' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyri' on input line 553.
+(hyperref)                removing `\PU\cyri' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyri' on input line 553.
+(hyperref)                removing `\?\cyri' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyri' on input line 553.
+(hyperref)                removing `\PU\cyri' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrishrt' on input line 553.
+(hyperref)                removing `\?\cyrishrt' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrishrt' on input line 553.
+(hyperref)                removing `\PU\cyrishrt' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrishrt' on input line 553.
+(hyperref)                removing `\?\cyrishrt' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrishrt' on input line 553.
+(hyperref)                removing `\PU\cyrishrt' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrm' on input line 553.
+(hyperref)                removing `\?\cyrm' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrm' on input line 553.
+(hyperref)                removing `\PU\cyrm' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrm' on input line 553.
+(hyperref)                removing `\?\cyrm' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrm' on input line 553.
+(hyperref)                removing `\PU\cyrm' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 553.
+(hyperref)                removing `\?\cyre' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 553.
+(hyperref)                removing `\PU\cyre' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 553.
+(hyperref)                removing `\?\cyre' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 553.
+(hyperref)                removing `\PU\cyre' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrt' on input line 553.
+(hyperref)                removing `\?\cyrt' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrt' on input line 553.
+(hyperref)                removing `\PU\cyrt' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrt' on input line 553.
+(hyperref)                removing `\?\cyrt' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrt' on input line 553.
+(hyperref)                removing `\PU\cyrt' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 553.
+(hyperref)                removing `\?\cyro' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 553.
+(hyperref)                removing `\PU\cyro' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyro' on input line 553.
+(hyperref)                removing `\?\cyro' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyro' on input line 553.
+(hyperref)                removing `\PU\cyro' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 553.
+(hyperref)                removing `\<def>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrd' on input line 553.
+(hyperref)                removing `\?\cyrd' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 553.
+(hyperref)                removing `\global' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 553.
+(hyperref)                removing `\<let>-command' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrd' on input line 553.
+(hyperref)                removing `\PU\cyrd' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrd' on input line 553.
+(hyperref)                removing `\?\cyrd' on input line 554.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrd' on input line 553.
+(hyperref)                removing `\PU\cyrd' on input line 554.
 
 [4 <./comsol1.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 691.
+(hyperref)                removing `\<def>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\CYRZ' on input line 691.
+(hyperref)                removing `\?\CYRZ' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 691.
+(hyperref)                removing `\global' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 691.
+(hyperref)                removing `\<let>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\CYRZ' on input line 691.
+(hyperref)                removing `\PU\CYRZ' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\CYRZ' on input line 691.
+(hyperref)                removing `\?\CYRZ' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\CYRZ' on input line 691.
+(hyperref)                removing `\PU\CYRZ' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 691.
+(hyperref)                removing `\<def>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 691.
+(hyperref)                removing `\?\cyra' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 691.
+(hyperref)                removing `\global' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 691.
+(hyperref)                removing `\<let>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 691.
+(hyperref)                removing `\PU\cyra' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyra' on input line 691.
+(hyperref)                removing `\?\cyra' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyra' on input line 691.
+(hyperref)                removing `\PU\cyra' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 691.
+(hyperref)                removing `\<def>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrk' on input line 691.
+(hyperref)                removing `\?\cyrk' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 691.
+(hyperref)                removing `\global' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 691.
+(hyperref)                removing `\<let>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrk' on input line 691.
+(hyperref)                removing `\PU\cyrk' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrk' on input line 691.
+(hyperref)                removing `\?\cyrk' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrk' on input line 691.
+(hyperref)                removing `\PU\cyrk' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 691.
+(hyperref)                removing `\<def>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrl' on input line 691.
+(hyperref)                removing `\?\cyrl' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 691.
+(hyperref)                removing `\global' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 691.
+(hyperref)                removing `\<let>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrl' on input line 691.
+(hyperref)                removing `\PU\cyrl' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrl' on input line 691.
+(hyperref)                removing `\?\cyrl' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrl' on input line 691.
+(hyperref)                removing `\PU\cyrl' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 691.
+(hyperref)                removing `\<def>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyryu' on input line 691.
+(hyperref)                removing `\?\cyryu' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 691.
+(hyperref)                removing `\global' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 691.
+(hyperref)                removing `\<let>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyryu' on input line 691.
+(hyperref)                removing `\PU\cyryu' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyryu' on input line 691.
+(hyperref)                removing `\?\cyryu' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyryu' on input line 691.
+(hyperref)                removing `\PU\cyryu' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 691.
+(hyperref)                removing `\<def>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrch' on input line 691.
+(hyperref)                removing `\?\cyrch' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 691.
+(hyperref)                removing `\global' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 691.
+(hyperref)                removing `\<let>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrch' on input line 691.
+(hyperref)                removing `\PU\cyrch' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrch' on input line 691.
+(hyperref)                removing `\?\cyrch' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrch' on input line 691.
+(hyperref)                removing `\PU\cyrch' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 691.
+(hyperref)                removing `\<def>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 691.
+(hyperref)                removing `\?\cyre' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 691.
+(hyperref)                removing `\global' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 691.
+(hyperref)                removing `\<let>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 691.
+(hyperref)                removing `\PU\cyre' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 691.
+(hyperref)                removing `\?\cyre' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 691.
+(hyperref)                removing `\PU\cyre' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 691.
+(hyperref)                removing `\<def>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrn' on input line 691.
+(hyperref)                removing `\?\cyrn' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 691.
+(hyperref)                removing `\global' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 691.
+(hyperref)                removing `\<let>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrn' on input line 691.
+(hyperref)                removing `\PU\cyrn' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyrn' on input line 691.
+(hyperref)                removing `\?\cyrn' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyrn' on input line 691.
+(hyperref)                removing `\PU\cyrn' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 691.
+(hyperref)                removing `\<def>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyri' on input line 691.
+(hyperref)                removing `\?\cyri' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 691.
+(hyperref)                removing `\global' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 691.
+(hyperref)                removing `\<let>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyri' on input line 691.
+(hyperref)                removing `\PU\cyri' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyri' on input line 691.
+(hyperref)                removing `\?\cyri' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyri' on input line 691.
+(hyperref)                removing `\PU\cyri' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 691.
+(hyperref)                removing `\<def>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 691.
+(hyperref)                removing `\?\cyre' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 691.
+(hyperref)                removing `\global' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 691.
+(hyperref)                removing `\<let>-command' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 691.
+(hyperref)                removing `\PU\cyre' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\?\cyre' on input line 691.
+(hyperref)                removing `\?\cyre' on input line 692.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\PU\cyre' on input line 691.
+(hyperref)                removing `\PU\cyre' on input line 692.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 738--745
-[]\T2A/cmr/m/n/14.4 2. Учеб-ные ру-ко-вод-ства и по-со-бия по ис-поль-зо-ва-
+Underfull \hbox (badness 10000) in paragraph at lines 739--746
+[]\T2A/faq/m/n/14.4 2. Учеб-ные ру-ко-вод-ства и по-со-бия по ис-поль-зо-ва-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--745
-\T2A/cmr/m/n/14.4 нию COMSOL Multiphysics // comsol.ru: [сайт] - URL:
+Underfull \hbox (badness 10000) in paragraph at lines 739--746
+\T2A/faq/m/n/14.4 нию COMSOL Multiphysics // comsol.ru: [сайт] - URL:
  []
 
 [6] (2023-05-07.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `2023-05-07.out' has not changed.
 (rerunfilecheck)             Checksum: 67035C610F2597C0F1EEC1951230E99F;204.
  ) 
 Here is how much of TeX's memory you used:
- 14299 strings out of 478927
- 200460 string characters out of 2862391
- 557885 words of memory out of 3000000
- 31877 multiletter control sequences out of 15000+600000
- 413642 words of font info for 55 fonts, out of 8000000 for 9000
+ 14461 strings out of 478927
+ 202277 string characters out of 2862391
+ 565009 words of memory out of 3000000
+ 32026 multiletter control sequences out of 15000+600000
+ 418483 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,66p,1425b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\tiama\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx20
-74.pk> <C:\Users\tiama\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
-rm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
-les/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
-><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
- Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 2023-05-07.pdf (6 pages, 218139 bytes).
+{C:/Program Files/MiKTeX/fonts/enc/dvips/t2/t2a.enc}<C:/Program Files/MiKTeX/
+fonts/type1/public/pscyr/antiq6.pfb><C:/Program Files/MiKTeX/fonts/type1/public
+/pscyr/antiq7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on 2023-05-07.pdf (6 pages, 201788 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
+ 124 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
