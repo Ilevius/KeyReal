@@ -8,7 +8,7 @@ implicit none
 
 
     call InitGlobals
-    call dinn5(u_integrand,t1,t2,t3,t4,tm,tp,eps,step,IntLimit,pointsNumber,u)
+    call dinn5(v_integrand,t1,t2,t3,t4,tm,tp,eps,step,IntLimit,pointsNumber,u)
     call PlotResults
     
     
@@ -57,6 +57,15 @@ CONTAINS
     END
     
     
+    FUNCTION MakeR(alfa, mu, kappa)
+    ! single mu!!!
+    real*8 mu, kappa(2)
+    complex*16 alfa, MakeR, sigma(2), delta
+        sigma = makeSigma(kappa, alfa)
+        delta = makeDelta(alfa, mu, kappa)
+        MakeR =2d0*ci*sigma(1)*(-(alfa**2-0.5d0*kappa(2)**2)*exp(sigma(1)*z) + alfa**2*exp(sigma(2)*z))/delta
+    END
+    
     
     SUBROUTINE u_integrand(alfa, s, n)
     implicit none;
@@ -72,6 +81,20 @@ CONTAINS
         enddo     
     END SUBROUTINE u_integrand
     
+    
+    SUBROUTINE v_integrand(alfa, s, n)
+    implicit none;
+    integer n, i
+    complex*16 alfa, s(n), sigma(2), R, Rminus 
+        sigma = makeSigma(kappa, alfa)
+        R = MakeR(alfa, mu, kappa)
+        Rminus = MakeR(-alfa, mu, kappa)
+        do i = 1, n
+           ! s(i) = -ci*alfa*P*exp(-ci*alfa*x(i)) + alfa*ci*Pminus*exp(ci*alfa*x(i))   
+            s(i) = R*(exp(-ci*alfa*x(i)) +exp(ci*alfa*x(i)))   
+            s(i) = s(i)/(2d0*pi)
+        enddo     
+    END SUBROUTINE v_integrand
     
     subroutine PlotResults 
     implicit none

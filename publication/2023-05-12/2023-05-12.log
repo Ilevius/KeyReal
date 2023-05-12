@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.18)  12 MAY 2023 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.18)  12 MAY 2023 13:53
 entering extended mode
 **./2023-05-12.tex
 (2023-05-12.tex
@@ -1232,11 +1232,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\PU\cyre' on input line 133.
 
 Package epstopdf Info: Source file: <3d.eps>
-(epstopdf)                    date: 2023-05-12 08:23:04
-(epstopdf)                    size: 446994 bytes
+(epstopdf)                    date: 2023-05-12 13:51:29
+(epstopdf)                    size: 422658 bytes
 (epstopdf)             Output file: <3d-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-12 08:27:44
-(epstopdf)                    size: 22402 bytes
+(epstopdf)                    date: 2023-05-12 13:51:46
+(epstopdf)                    size: 20508 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=3d-eps-converted-to.
 pdf 3d.eps>
 (epstopdf)             \includegraphics on input line 255.
@@ -1245,16 +1245,16 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./3d-eps-converted-to.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<3d-eps-converted-to.pdf, id=51, 94.3525pt x 66.2475pt>
+<3d-eps-converted-to.pdf, id=51, 34.1275pt x 33.12375pt>
 File: 3d-eps-converted-to.pdf Graphic file (type pdf)
 <use 3d-eps-converted-to.pdf>
 Package pdftex.def Info: 3d-eps-converted-to.pdf  used on input line 255.
-(pdftex.def)             Requested size: 283.05675pt x 198.74199pt.
+(pdftex.def)             Requested size: 102.38219pt x 99.37097pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.278 1
+l.309 2
        . Построить [1 <./3d-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2329,7 +2329,7 @@ it/14.4 u; v; w\OT1/cmr/m/n/14.4 )$\T2A/ftm/m/n/14.4 , воз-буж-да-е-мое то-чеч-
 \OT1/cmr/m/n/14.4 ) =
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 699--699
 [] \T2A/ftm/bx/n/20.74 При-ме-не-ние про-грамм-но-го ком-плек-са
  []
@@ -3930,6 +3930,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\PU\cyrya' on input line 699.
 
+[4]
 <Comsol_images/1.PNG, id=104, 458.9145pt x 145.7445pt>
 File: Comsol_images/1.PNG Graphic file (type png)
 <use Comsol_images/1.PNG>
@@ -3940,7 +3941,7 @@ File: Comsol_images/2.PNG Graphic file (type png)
 <use Comsol_images/2.PNG>
 Package pdftex.def Info: Comsol_images/2.PNG  used on input line 776.
 (pdftex.def)             Requested size: 483.69684pt x 237.37105pt.
-[5 <./Comsol_images/1.PNG>]
+ [5 <./Comsol_images/1.PNG>]
 <Comsol_images/3.PNG, id=114, 659.46375pt x 318.59026pt>
 File: Comsol_images/3.PNG Graphic file (type png)
 <use Comsol_images/3.PNG>
@@ -3962,7 +3963,7 @@ File: Comsol_images/6.PNG Graphic file (type png)
 <use Comsol_images/6.PNG>
 Package pdftex.def Info: Comsol_images/6.PNG  used on input line 913.
 (pdftex.def)             Requested size: 483.69684pt x 372.03627pt.
-[7 <./Comsol_images/4.PNG> <./Comsol_images/5.PNG>]
+ [7 <./Comsol_images/4.PNG> <./Comsol_images/5.PNG>]
 <Comsol_images/7.PNG, id=134, 888.31876pt x 405.31425pt>
 File: Comsol_images/7.PNG Graphic file (type png)
 <use Comsol_images/7.PNG>
@@ -6423,12 +6424,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\PU\cyra' on input line 1304.
 
 Package epstopdf Info: Source file: <Matlab_images/CompareU.eps>
-(epstopdf)                    date: 2023-05-12 12:35:29
-(epstopdf)                    size: 740402 bytes
+(epstopdf)                    date: 2023-05-12 13:37:30
+(epstopdf)                    size: 775410 bytes
 (epstopdf)             Output file: <Matlab_images/CompareU-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2023-05-12 12:35:38
-(epstopdf)                    size: 34344 bytes
+(epstopdf)                    date: 2023-05-12 13:37:46
+(epstopdf)                    size: 33385 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Matlab_images/Compar
 eU-eps-converted-to.pdf Matlab_images/CompareU.eps>
 (epstopdf)             \includegraphics on input line 1332.
@@ -6437,38 +6438,34 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./Matlab_images/CompareU-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Matlab_images/CompareU-eps-converted-to.pdf, id=211, 544.0325pt x 308.15125pt>
-
+<Matlab_images/CompareU-eps-converted-to.pdf, id=211, 544.0325pt x 339.2675pt>
 File: Matlab_images/CompareU-eps-converted-to.pdf Graphic file (type pdf)
 <use Matlab_images/CompareU-eps-converted-to.pdf>
 Package pdftex.def Info: Matlab_images/CompareU-eps-converted-to.pdf  used on i
 nput line 1332.
-(pdftex.def)             Requested size: 435.32419pt x 246.58714pt.
+(pdftex.def)             Requested size: 435.32419pt x 271.48683pt.
 Package epstopdf Info: Source file: <Matlab_images/CompareV.eps>
-(epstopdf)                    date: 2023-05-10 21:19:04
-(epstopdf)                    size: 68172 bytes
+(epstopdf)                    date: 2023-05-12 13:41:17
+(epstopdf)                    size: 749830 bytes
 (epstopdf)             Output file: <Matlab_images/CompareV-eps-converted-to.pd
 f>
+(epstopdf)                    date: 2023-05-12 13:41:30
+(epstopdf)                    size: 31802 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Matlab_images/Compar
 eV-eps-converted-to.pdf Matlab_images/CompareV.eps>
 (epstopdf)             \includegraphics on input line 1333.
-runsystem(miktex-epstopdf --outfile=Matlab_images/CompareV-eps-converted-to.pdf
- Matlab_images/CompareV.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <Matlab_images/CompareV-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2023-05-12 12:41:32
-(epstopdf)                    size: 74057 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./Matlab_images/CompareV-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Matlab_images/CompareV-eps-converted-to.pdf, id=212, 1156.32pt x 594.22pt>
+<Matlab_images/CompareV-eps-converted-to.pdf, id=212, 549.05125pt x 314.17375pt
+>
 File: Matlab_images/CompareV-eps-converted-to.pdf Graphic file (type pdf)
 <use Matlab_images/CompareV-eps-converted-to.pdf>
 Package pdftex.def Info: Matlab_images/CompareV-eps-converted-to.pdf  used on i
 nput line 1333.
-(pdftex.def)             Requested size: 483.69684pt x 248.56425pt.
+(pdftex.def)             Requested size: 435.32419pt x 249.10538pt.
 [17 <./Comsol_images/20.PNG>] [18 <./Matlab_images/CompareU-eps-converted-to.pd
 f> <./Matlab_images/CompareV-eps-converted-to.pdf>]
 
@@ -7338,7 +7335,7 @@ Package rerunfilecheck Info: File `2023-05-12.out' has not changed.
 Here is how much of TeX's memory you used:
  15238 strings out of 478927
  214267 string characters out of 2862391
- 572733 words of memory out of 3000000
+ 573733 words of memory out of 3000000
  32689 multiletter control sequences out of 15000+600000
  431678 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -7354,9 +7351,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
 blic/pscyr/times.pfb><C:/Program Files/MiKTeX/fonts/type1/public/pscyr/timesbd.
 pfb>
-Output written on 2023-05-12.pdf (21 pages, 1130036 bytes).
+Output written on 2023-05-12.pdf (21 pages, 1084878 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
+ 303 PDF objects out of 1000 (max. 8388607)
  59 named destinations out of 1000 (max. 500000)
  179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

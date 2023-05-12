@@ -7,7 +7,7 @@ data = load('result.txt');
 x_forftran = data(:,1);
 u_forftran = data(:,2);
 
-data = load('comsol u.txt');
+data = load('comsol v.txt');
 x_comsol = data(:,1)*1000;
 u_comsol = data(:,3);
 
