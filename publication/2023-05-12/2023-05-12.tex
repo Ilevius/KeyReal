@@ -1017,21 +1017,20 @@ All Objects).
 материала
 выберем
 алюминиевый
-сплав. Его
-параметры
-постоянны,
-поэтому нам
-известны их значения:
-
-\begin{center}%
+сплав со свойствами:
+\begin{table}[H]
+\begin{center}
 \begin{tabular}
 [c]{|l|l|l|}\hline
 $\mu$ & $\lambda$ & $\rho$\\\hline
 55,5 ГПа & 26,1 ГПа & 2698
 кг/м$^{3}$\\\hline
 \end{tabular}
-,
 \end{center}
+\label{material}
+\caption{Выбранные упругие постоянные полуплоскости}
+\end{table}
+
 
 \begin{figure}[H]
 \centering
@@ -1246,8 +1245,7 @@ PML выделенным
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{Comsol_images/18.PNG}\caption{График
-распространения
-волны в поле}%
+модуля волнового поля $\bold{u}$}%
 \label{comsol18}%
 \end{figure}
 
@@ -1311,10 +1309,9 @@ $z=0$
 сравнения
 результатов
 ниже
-приведены
-полученные
-полуаналитическим
-методом
+приведены, 
+полученные полуаналитическим
+методом при тех же упругих постоянных и плотности (Таблица 1)
 графики
 амплитуд
 горизонтальной
@@ -1332,9 +1329,8 @@ $z=0,$ на которые
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{Matlab_images/CompareU.png}
-\par
-\includegraphics[width=0.8\textwidth]{Matlab_images/CompareV.png}\caption{Амплитуды
+\includegraphics[width=0.9\textwidth]{Matlab_images/CompareU.eps}
+\includegraphics[width=\textwidth]{Matlab_images/CompareV.eps}\caption{Амплитуды
 горизонтальной
 и
 вертикальной

@@ -23,7 +23,7 @@ real*8 t1, t2, t3, t4, tm, tp, eps, step, IntLimit
         rho = 2.698d0
         z = 0d0
         xmin = 0d0
-        xstep = 1d0 
+        xstep = 2d0 
         xmax = 140d0
         f = 200d0
         
