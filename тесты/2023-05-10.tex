@@ -2,8 +2,6 @@
 %\usepackage[cp1251]{inputenc}
 %\usepackage{newthm}
 %\renewcommand{\baselinestretch}{1,25}
-%Чтобы точки стояли в содержании
-%Чтобы точки стояли в содержании
 
 \documentclass[a4paper,openany,oneside]{article}%
 \usepackage[14pt]{extsizes}
@@ -17,13 +15,13 @@
 \usepackage[english,russian]{babel}
 \usepackage{longtable}
 \usepackage{float}
-\usepackage{pscyr}
 \usepackage{graphicx}
+
 \usepackage[matrix,arrow,curve]{xy}
 \usepackage{ccaption}
 \usepackage{misccorr}
 \usepackage{indentfirst}
-\usepackage{tocloft}
+\usepackage{tocloft}							%Чтобы точки стояли в содержании
 \usepackage{fancyhdr}
 \usepackage{xcolor}
 \usepackage{soul}%
@@ -33,7 +31,7 @@
 %TCIDATA{Codepage=1251}
 %TCIDATA{CSTFile=article.cst}
 %TCIDATA{Created=Thursday, December 15, 2016 08:42:37}
-%TCIDATA{LastRevised=Wednesday, May 10, 2023 20:14:14}
+%TCIDATA{LastRevised=Wednesday, May 10, 2023 11:26:56}
 %TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
 %TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
 %TCIDATA{BibliographyScheme=Manual}
@@ -69,16 +67,11 @@
 \pagestyle{myheadings}
 \renewcommand{\headrulewidth}{0pt}
 \sloppy
-\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} %Чтобы точки стояли в содержании
 \begin{document}
-
 \tableofcontents
-
 \newpage
-
-\section*{Введение}
-
-\addcontentsline{toc}{section}{Введение}
+\section*{Введение}\addcontentsline{toc}{section}{Введение}
 
 Вибрационная
 нагрузка,
@@ -220,11 +213,9 @@ $K$ матрицы
 построения
 установившихся
 гармонических
-колебаний. 
-
-Задачи: 
-
-1. Построить
+колебаний.
+Задачи:
+построить
 волновое
 поле,
 возбуждаемое
@@ -237,9 +228,9 @@ $K$ матрицы
 конечных
 элементов
 при помощи
-программы COMSOL Multiphysics[2];
-
-2. Построить
+программы COMSOL
+Multiphysics[2];
+построить
 волновое
 поле,
 используя
@@ -267,24 +258,8 @@ $K$ матрицы
 языка
 программирования
 Fortran и
-программы DINN5;
-
-3.
-Сопоставить
-полученные
-предыдущими
-шагами
-данные и, в
-случае
-эквивалентности
-результатов,
-убедиться в
-справедливости
-обоих
-методов
-нахождения
-волнового
-поля .
+программы
+DINN5.$\bigskip$
 
 \section{Постановка
 задачи}
@@ -295,7 +270,7 @@ Fortran и
 полупространство
 в декартовой
 системе
-координат $x,y, z$
+координат $x,y$
 занимает
 объем $-\infty<$ $x,y<+\infty,\quad-\infty
 <z\leq0$. К его
@@ -303,7 +278,7 @@ Fortran и
 в области $\Omega$
 приложена
 нагрузка $\tau
-=q(x,y)e^{-i\omega t}$, а вне $\Omega$
+=q(x,y)e^{(-i\omega x)}$, а вне $\Omega$
 напряжения $\tau$
 отсутствуют.
 Колебания
@@ -347,7 +322,7 @@ Fortran и
 времени $t$
 описывается
 множителем
-$e^{-i\omega t}$. В силу
+$e^{(-i\omega x)}$. В силу
 линейности
 задачи
 данный
@@ -363,13 +338,13 @@ $e^{-i\omega t}$. В силу
 оговаривая
 этого особо.
 Например,
-$Re[\bold{u}(x,y,z)e^{-i\omega t}]$ - вектор
+$Re[u(x,y)e^{(-i\omega x)}]$ - вектор
 перемещений
 точек среды.
 Работать
 будем только
 с вектором
-$\bold{u}(x,y,z)=(u,v,w)$, называя
+$u(x,y,z)=(u,v,w)$, называя
 его также
 вектором перемещений.
 
@@ -407,7 +382,7 @@ $\bold{u}(x,y,z)=(u,v,w)$, называя
 деформаций
 $\varepsilon_{ij}$ и
 напряжений
-$\sigma_{ij}$, которые в
+$\sigma_{i,j}$, которые в
 линейной
 теории
 упругости
@@ -423,7 +398,7 @@ $\sigma_{ij}$, которые в
 обобщенного
 закона Гука
 \begin{equation}
-\sigma_{ij}=c_{ij}^{mn}\varepsilon_{mn},~i,j=1,2,3... \label{Hook}%
+\sigma_{i,j}=c_{ij}^{mn}\varepsilon_{mn},~i,j=1,2,3... \label{Hook}%
 \end{equation}
 
 
@@ -444,8 +419,10 @@ $\sigma_{ij}$, которые в
 равенство (\ref{Hook}) упрощается:%
 
 \begin{equation}
-\sigma_{ij}=\lambda\theta\delta_{ij}+2\mu\varepsilon_{ij},\label{HookIso}%
+\sigma_{ij}=\lambda\theta\delta_{ij}+2\mu\varepsilon_{ij}, \label{HookIso}%
 \end{equation}
+
+
 где\[
 \delta_{ij}=\left\{
 \begin{array}
@@ -459,12 +436,14 @@ $\sigma_{ij}$, которые в
 равенств (\ref{Koshi}),
 (\ref{HookIso})
 уравнения
+движения
 движения (\ref{movEq})
 преобразуются
-в систему
+в систему,
+так
+называемых
 уравнений
-Ляме \cite{Gorelik}
-\begin{equation}
+Ляме\begin{equation}
 \left\{
 \begin{array}
 [c]{c}%
@@ -486,14 +465,14 @@ w}{\partial z}.
 Условие
 приложения
 нагрузки $\tau
-=\bold{q}(x,y)e^{(-i\omega x)}$ в
+=q(x,y)e^{(-i\omega x)}$ в
 области $\Omega$
 преобразуется
 \begin{equation}
 \bar{\tau}|_{z=0}=\left\{
 \begin{array}
 [c]{c}%
-\bold{q}(x,y),(x,y)\in\Omega\\
+\bar{q}(x,y),(x,y)\in\Omega\\
 0,(x,y)\notin\Omega
 \end{array}
 \right.  \text{, } \label{boundCond}%
@@ -505,11 +484,10 @@ w}{\partial z}.
 условиями на бесконечности:%
 
 \begin{equation}
-\bold{u}  \rightarrow0,~\sqrt{x^{2}+y^{2}+z^{2}}\rightarrow\infty\label{boundCond2}%
+u\rightarrow0,~\sqrt{x^{2}+y^{2}+z^{2}}\rightarrow\infty\label{boundCond2}%
 \end{equation}
-и условиями излучения
 составляет
-граничные  условия.
+граничные условия.
 
 Таким
 образом
@@ -518,20 +496,26 @@ w}{\partial z}.
 задача (\ref{LameEq})-(\ref{boundCond2}),
 к решению
 которой
-сводится
+сводится \cite{Shefs}
 вопрос
 нахождения
-поля $u$\cite{Shefs}.
+поля $u$.
 
 \section{ Метод
 конечных
 элементов}
-
-Задача (\ref{LameEq})-(\ref{boundCond2})
- может быть расщеплена на две
+Для
+построения
+численного
+примера
+воспользуемся
+возможностью
+расщепления
+задачи  (\ref{LameEq})-(\ref{boundCond2})
+на две
 независимые:
 плоскую и
-антиплоскую [источник!].
+антиплоскую.
 Рассмотрим
 первый
 случай,
@@ -542,14 +526,14 @@ w}{\partial z}.
 частиц
 происходят в
 одной
-плоскости. В
-данном
+плоскости $Oxy.$
+В данном
 разделе
 поэтапно
 построим
 плоское
 волновое
-поле $\bold{u}(x,y)=(u,v)$ с
+поле $\mathbf{u}(x,y)=(u,v)$ с
 помощью
 программы COMSOL
 Multiphisics. Эта
@@ -570,7 +554,8 @@ Multiphisics. Эта
 есть
 возможность
 учета их
-взаимного влияния.
+взаимного
+влияния. 
 
 Первым шагом
 будет выбор
@@ -591,7 +576,7 @@ Multiphisics. Эта
 \centering
 \includegraphics[width=\textwidth]{Comsol_images/1.PNG}\caption{Окно
 выбора
-размерности
+мерности
 пространства
 }%
 \label{comsol1}%
@@ -621,8 +606,9 @@ Multiphisics. Эта
 \centering
 \includegraphics[width=\textwidth]{Comsol_images/2.PNG}\caption{Окно
 выбора
-физических
-процессов }%
+мерности
+пространства
+}%
 \label{comsol2}%
 \end{figure}
 
@@ -641,7 +627,7 @@ Multiphisics. Эта
 пространство.
 Выберем
 "частотное
-поле"  (Frequency Domain),
+поле" (Frequency Domain),
 потому что
 этот модуль
 будет
@@ -657,8 +643,9 @@ Multiphisics. Эта
 \centering
 \includegraphics[width=\textwidth]{Comsol_images/3.PNG}\caption{Окно
 выбора
-дополнительных
-условий }%
+мерности
+пространства
+}%
 \label{comsol3}%
 \end{figure}\bigskip
 
@@ -682,9 +669,10 @@ COMSOL, в котором
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{Comsol_images/4.PNG}\caption{Окно
-добавления
-физических
-процессов }%
+выбора
+мерности
+пространства
+}%
 \label{comsol4}%
 \end{figure}
 
@@ -706,8 +694,10 @@ COMSOL, в котором
 \begin{figure}[H]
 \centering
 \includegraphics[scale=1]{Comsol_images/5.PNG}\caption{Окно
-редактирования
-проекта }%
+выбора
+мерности
+пространства
+}%
 \label{comsol5}%
 \end{figure}
 
@@ -757,11 +747,13 @@ COMSOL, в котором
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{Comsol_images/6.PNG}\caption{Окно
-управления
-константами
+выбора
+мерности
+пространства
 }%
 \label{comsol6}%
-\end{figure}Передадим
+\end{figure}
+Передадим
 созданные
 переменные
 соответствующим
@@ -772,11 +764,14 @@ COMSOL, в котором
 объекты\textquotedblright\ (Build
 All Objects).
 
+
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{Comsol_images/7.PNG}\caption{Окно
-графического
-отображения
+выбора
+мерности
+пространства
 }%
 \label{comsol7}%
 \end{figure}
@@ -805,11 +800,13 @@ All Objects).
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Comsol_images/8.PNG}\caption{Добавление
-на график
-точки }%
+\includegraphics[width=\textwidth]{Comsol_images/8.PNG}\caption{Окно
+выбора
+мерности
+пространства
+}%
 \label{comsol8}%
-\end{figure}Для
+\end{figure} Для
 создания
 нагрузки на
 пространство
@@ -834,9 +831,11 @@ All Objects).
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Comsol_images/9.PNG}\caption{Добавление
-нагрузки на
-точку }%
+\includegraphics[width=\textwidth]{Comsol_images/9.PNG}\caption{Окно
+выбора
+мерности
+пространства
+}%
 \label{comsol9}%
 \end{figure}
 
@@ -860,8 +859,10 @@ All Objects).
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{Comsol_images/10.PNG}\caption{Окно
-добавления
-материала }%
+выбора
+мерности
+пространства
+}%
 \label{comsol10}%
 \end{figure}
 
@@ -884,8 +885,11 @@ All Objects).
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{Comsol_images/11.PNG}\caption{Библиотека
-материалов }%
+\includegraphics[scale=0.6]{Comsol_images/11.PNG}\caption{Окно
+выбора
+мерности
+пространства
+}%
 \label{comsol11}%
 \end{figure}
 
@@ -919,8 +923,11 @@ All Objects).
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=1]{Comsol_images/12.PNG}\caption{Добавление
-PML }%
+\includegraphics[scale=1]{Comsol_images/12.PNG}\caption{Окно
+выбора
+мерности
+пространства
+}%
 \label{comsol12}%
 \end{figure}
 
@@ -944,9 +951,11 @@ PML }%
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Comsol_images/13.PNG}\caption{Добавление
-слоев на
-график }%
+\includegraphics[width=\textwidth]{Comsol_images/13.PNG}\caption{Окно
+выбора
+мерности
+пространства
+}%
 \label{comsol13}%
 \end{figure}
 
@@ -961,11 +970,13 @@ PML }%
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Comsol_images/14.PNG}\caption{Передача
-PML выделенным
-слоям }%
+\includegraphics[width=\textwidth]{Comsol_images/14.PNG}\caption{Окно
+выбора
+мерности
+пространства
+}%
 \label{comsol14}%
-\end{figure}Одним из
+\end{figure} Одним из
 заключительных
 действий
 станет
@@ -1014,8 +1025,11 @@ PML выделенным
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Comsol_images/15.PNG}\caption{Наложение
-сетки }%
+\includegraphics[width=\textwidth]{Comsol_images/15.PNG}\caption{Окно
+выбора
+мерности
+пространства
+}%
 \label{comsol15}%
 \end{figure}
 
@@ -1038,9 +1052,10 @@ PML выделенным
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Comsol_images/16.PNG}\caption{Вычисленный
-график с
-деформацией
+\includegraphics[width=\textwidth]{Comsol_images/16.PNG}\caption{Окно
+выбора
+мерности
+пространства
 }%
 \label{comsol16}%
 \end{figure}
@@ -1078,9 +1093,11 @@ PML выделенным
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Comsol_images/17.PNG}\caption{Вычисленный
-график без
-деформации }%
+\includegraphics[width=\textwidth]{Comsol_images/17.PNG}\caption{Окно
+выбора
+мерности
+пространства
+}%
 \label{comsol17}%
 \end{figure}
 
@@ -1104,10 +1121,11 @@ PML выделенным
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Comsol_images/18.PNG}\caption{Другой
-вид графика
-без
-деформаций }%
+\includegraphics[width=\textwidth]{Comsol_images/18.PNG}\caption{Окно
+выбора
+мерности
+пространства
+}%
 \label{comsol18}%
 \end{figure}
 
@@ -1124,47 +1142,22 @@ PML выделенным
 Например,
 добавим
 двумерный
-график,
+график $\{X,Y\}$,
 отображающий
 зависимость
 величины
 нагрузки от
 расположения
-на объекте. В
-качестве
-функции,
-описывающей
-эту
-зависимость,
-возьмем
-компоненту
-вектора
-перемещений u.
+на объекте.
 
-\newpage\begin{figure}[H]
+\begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Comsol_images/19.PNG}\caption{Одномерный
-график
-нагрузки на
-область по
-компоненте u }%
+\includegraphics[width=\textwidth]{Comsol_images/19.PNG}\caption{Окно
+выбора
+мерности
+пространства
+}%
 \label{comsol19}%
-\end{figure}
-
-Или же, для
-большей
-наглядности,
-используем
-компоненту v.
-
-\newpage\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth]{Comsol_images/20.PNG}\caption{Одномерный
-график
-нагрузки на
-область по
-компоненте v }%
-\label{comsol20}%
 \end{figure}
 
 Теперь,
@@ -1178,8 +1171,9 @@ PML выделенным
 полуаналитического
 решения.
 
-\section{Полуаналитический
-метод}
+
+
+\section{Полуаналитический метод}
 
 Полуаналитический
 метод
@@ -1203,7 +1197,7 @@ PML выделенным
 упрощать
 операции
 дифференцирования
-и свертки.
+и свертки. 
 
 Предполагаем
 $f_{x}=f_{y}=f_{z}=0$
@@ -1238,19 +1232,13 @@ W=%
 \]
 
 
-Определитель
-матрицы $B$
-имеет вид:%
+Пусть :%
 
 \[
 \Delta=4i\mu^{2}\alpha^{2}[-(\alpha^{2}-0.5\varkappa_{2}^{2})^{2}+\alpha
 ^{2}\sigma_{1}\sigma_{2}]
 \]
-
-
-Обозначим
-решения
-следующим образом:%
+%
 
 \begin{align*}
 P(\alpha,z)  &  =\frac{2i\mu\alpha^{2}[-(\alpha^{2}-0.5\varkappa_{2}%
@@ -1267,12 +1255,7 @@ z}+(\alpha^{2}-0.5\varkappa_{2}^{2})e^{\sigma_{2}z}]}{\Delta}%
 \[
 N(\alpha,z)=\frac{i}{\mu\alpha^{2}\sigma_{2}}e^{\sigma_{2}z}%
 \]
-
-
-Составим из
-полученных
-функций
-матрицу Грина:%
+%
 
 \[
 K=\left(
@@ -1288,14 +1271,7 @@ _{2}P\\
 \]
 
 
-Тогда вектор
-перемещений
-можно
-получить
-путем
-обратного
-преобразования
-Фурье:%
+Тогда:%
 
 \[
 \mathbf{u}(x,y,z)=\frac{1}{2\pi}\iint\limits_{\Gamma_{1}\Gamma_{2}}%
@@ -1307,9 +1283,9 @@ _{1}x+\alpha_{2}y)}d\alpha_{1}d\alpha_{2}%
 Для плоского
 случая
 положим $\alpha=\alpha_{1}%
-,\alpha_{2}=0,$ в
-качестве $K$
-возьмем:
+,\alpha_{2}=0,$ в качестве $K$
+возьмем %
+
 \[
 K=\left(
 \begin{array}
@@ -1318,9 +1294,7 @@ K=\left(
 \alpha S~~~~R
 \end{array}
 \right)  .
-\]
-%
-
+\]%
 \[
 \mathbf{u}(x,y)=\frac{1}{2\pi}\int\limits_{\Gamma}K(\alpha,z)\mathbf{Q}%
 (\alpha)e^{-i\alpha x}d\alpha
@@ -1351,9 +1325,11 @@ K=\left(
 \begin{tabular}
 [c]{|l|l|l|l|}\hline
 $\mu$ & $\lambda$ & $\rho$ & $f$\\\hline
-5.5 ГПа & 26,1 ГПа & 2610
+22.6 ГПа & 18 ГПа & 2700
 кг/м$^{3}$ & 200 кГц\\\hline
 \end{tabular}
+
+
 
 \end{center}
 
@@ -1362,9 +1338,9 @@ $\mu$ & $\lambda$ & $\rho$ & $f$\\\hline
 результатов
 вычислений
 далее
-приведены
-графики,
-построенные
+приведен
+график,
+построенный
 на основе
 вычислений COMSOL
 Multiphysics и
@@ -1374,104 +1350,23 @@ Multiphysics и
 формулы,
 полученные
 полуаналитическим
-методом.
-Сначала
-сравним
-графики
-относительно
-компоненты u:
+методом:
 
-\newpage\begin{figure}[H]
-\centering
-\includegraphics[scale=0.45]{Matlab_images/CompareU.eps}\caption{Сравнение
-результатов
-COMSOL и Fortran по
-компоненте u}%
-\label{comsol21}%
-\end{figure}
-
-Теперь
-графики
-относительно
-компоненты v:
-
-\newpage
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.45]{Matlab_images/CompareV.eps}\caption{Сравнение
+\includegraphics[scale=0.45]{Matlab_images/Compare.eps}\caption{Сравнение
 результатов
-COMSOL и Fortran по
-компоненте v}%
-\label{comsol22}%
+COMSOL и Fortran}%
+\label{comsol18}%
 \end{figure}
 
-Как можно
-заметить,
-полуаналитический
-метод
-является не
-только
-рабочим, но
-еще и
-достаточно
-точным.
-Конечно,
-создание
-даже одной
-математической
-модели
-данным
-подходом
-затрачивает
-значительно
-больше
-времени, чем
-получение
-графика в COMSOL Multiphysics
-методом
-конечных
-элементов,
-однако
-возможность
-поэтапных
-расчетов
-увеличивает
-гибкость
-полуаналитического
-метода.
+\newpage
+\addcontentsline{toc}{section}{Список использованных источников}
+\begin{thebibliography}{}
 
-В конечном
-итоге, вне
-зависимости
-от выбора
-одного из
-методов, на
-выходе будут
-получены
-корректные данные.
+		\bibitem{Shefs} Глушков Е.В., Глушкова Н.В. Интегральные преобразования в задачах теории упругости, 1990
 
-\newpage\addcontentsline{toc}{section}{Список использованных источников}
-
-\begin{thebibliography}{9}                                                                                                %
-
-
-\bibitem {Shefs}Глушков
-Е.В., Глушкова
-Н.В.
-Интегральные
-преобразования
-в задачах
-теории
-упругости, 1990
-
-\bibitem {Mitra}Mitra M., Gopalakrishnan S. Guided Wave Based Structural
-Health Monitoring: Review. Smart Materials and Structures, 2016, vol. 25, no.
-5, pp. 1--27. DOI: 10.1088/0964- 1726/25/5/053001
-
-\bibitem {Gorelik} Горелик Г. С. Колебания и волны. Введение в акустику, радиофизику
-и оптику. — 3-е изд.: под ред. С.М. Рытова. — М.: ФИЗМАТЛИТ, 2007. — 656 с. —
-ISBN 978-5-9221-0776-1.
+    \bibitem{Mitra}  Mitra M., Gopalakrishnan S. Guided Wave Based Structural Health Monitoring: Review. Smart Materials and Structures, 2016, vol. 25, no. 5, pp. 1–27. DOI: 10.1088/0964- 1726/25/5/053001
 \end{thebibliography}
-
 
 \end{document}
