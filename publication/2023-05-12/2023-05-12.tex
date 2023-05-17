@@ -74,56 +74,7 @@
 
 \tableofcontents
 
-\begin{titlepage} \thispagestyle{empty}
-\begin{center}
-{\footnotesizeМИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ	
-\\Федеральное государственное бюджетное образовательное учреждение высшего образования}
-{\small
-\\\textbf{«КУБАНСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ»
-\\(ФГБОУ ВО «КубГУ»)}
-\bigskip
-\\\textbf{Факультет компьютерных технологий и прикладной математики}
-\\\textbf{Кафедра прикладной математики}
-\vspace{4cm}
-\begin{center}
-\textbf{КУРСОВАЯ РАБОТА}
-\bigskip
-\\
-\textbf{Построение
-частотного
-спектра
-волн,
-возбуждаемых
-поверхностным
-источником в
-упругом
-полупространстве}
-}
-\bigskip
-\begin{flushleft}
-\\
-\\Работу выполнил \noident\rule{10cm}{0.4pt} К.В. Дьяченко
-\bigskip
-\\Направление подготовки \underline{01.03.02 Прикладная математика и информатика}
-\bigskip
-\\Направленность \underline{Программирование и информационные технологии}
-\bigskip
-\bigskip
-\bigskip
-\\Научный руководитель
-\\д.ф.-м.н., проф. \noident\rule{10cm}{0.4pt} Н.В. Глушкова
-\bigskip
-\\Нормоконтроль
-\\преподаватель \noident\rule{10cm}{0.4pt} Е.С. Троценко
-\bigskip
-\end{flushleft}
-\end{center}
-\vspace{3cm}
-\begin{center}
-\\Краснодар
-\\2022
-\end{center}
-\end{titlepage}
+
 
 
 \newpage
@@ -1390,6 +1341,29 @@ COMSOL, объеме
 внимания к
 математическим
 выкладкам и программированию.
+
+Важно помнить, что корректность результатов COMSOL существенно зависит от выбора сетки. В частности, чем мельче сетка (до некоторого предела), тем точнее результат, однако, вместе с этим значительно растет время вычислений. 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{compare_images/finer_mesh_comsol_200_kHz.eps}
+\includegraphics[width=0.9\textwidth]{Matlab_images/CompareV.eps}\caption{Амплитуда
+вертикальной компоненты $w$ поля $\mathbf{u}=(u,w)$ при
+частоте $f=200$ кГц. На рисунке (б) взята самая мелкая автоматическая сетка, 
+на рисунке (а) -- более крупная сетка.}%
+\label{comsol21}%
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{compare_images/extremely_fine_mesh_1_MHz.eps}
+\includegraphics[width=0.9\textwidth]{compare_images/custom_mesh_1_MHz.eps}\caption{Амплитуда
+вертикальной компоненты $w$ поля $\mathbf{u}=(u,w)$ при
+частоте $f=1$ МГц. На рисунке (а) взята самая мелкая автоматическая сетка, 
+на рисунке (б) размер сетки установлен вручную, равным 1/8 длины самой короткой волны.}%
+\label{comsol21}%
+\end{figure}
+
 
 \newpage\addcontentsline{toc}{section}{Список использованных источников}
 
